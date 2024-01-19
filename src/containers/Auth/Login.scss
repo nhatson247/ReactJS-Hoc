@@ -1,0 +1,112 @@
+
+.login-background{
+    background: linear-gradient(to top left, #66ccff 0%, #ffcccc 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .login-container{
+        background: white;
+        border: gray;
+        width: 30rem;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        
+        .login-content{
+            padding: 48px;
+
+            .text-login{
+                text-align: center;
+                font-size: 32px;
+                font-weight: bold;
+                padding-bottom: 8px;
+            }
+            .text-login-pl{
+                font-size: 14px;
+                padding-bottom: 48px;
+            }
+
+            .login-input{
+                margin-bottom: 20px;
+
+                .custom-input-password{
+                    position: relative;
+                    
+                    i{
+                        position: absolute;
+                        right: 15px;
+                        top: 15px;
+                        cursor: pointer;
+                    }
+                }
+                input{
+                  padding: 10px;
+                }
+            }
+            
+            .text-porgot{
+                text-align: right;
+                a{
+                    text-decoration: none;
+                }
+            }
+            .btn{
+                margin: 25px 0;
+                width: 100%;
+                height: 40px;
+
+            }
+            .login-with{
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .social-login{
+                display: flex;
+                font-size: 35px;
+                margin-top: 20px;
+                justify-content: space-evenly;
+                color: white;
+
+                .google{
+                    background: #dd4b39;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                }
+                
+                .facebook{
+                    background: #3b5998;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                }
+
+                .github{
+                    background: #333;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                }
+
+                .google:hover,.facebook:hover, .github:hover{
+                    transition: background-color 0.2s ease; 
+                    opacity: 0.8;
+                    cursor: pointer;
+                }
+                
+            }
+        }
+    }
+}

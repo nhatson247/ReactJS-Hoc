@@ -1,0 +1,73 @@
+.section-slider {
+    height: 500px;
+    background: #ffffff;
+    margin-bottom: 25px;
+
+
+    span {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .slider-container {
+        margin: 0 80px;
+        display: flex;
+        flex-direction: column;
+
+        .slider-header {
+            height: 60px;
+            font-size: 30px;
+            margin: 30px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .slider-body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+
+            .option {
+                display: flex;
+                flex-direction: row;
+                width: 600px;
+                height: 100px;
+                border-radius: 15px;
+                margin-bottom: 30px;
+                align-items: center;
+                background: url("../../../assets/images/background-the.png") center center no-repeat;
+                border: 1px solid #ccc;
+                background-size: cover;
+                padding: 0 50px;
+                justify-content: space-evenly;
+            }
+
+            .option-slider {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                border-radius: 500px;
+                width: 80px;
+                height: 80px;
+                background: radial-gradient(circle, rgb(255, 211, 84), rgb(255, 239, 195), rgb(254, 253, 251), rgb(255, 255, 255));
+            }
+
+            .option img {
+                width: 60px;
+                height: 60px;
+            }
+
+            .option p {
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+}
