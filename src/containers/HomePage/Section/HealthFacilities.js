@@ -38,7 +38,8 @@ class HealthFacilities extends Component {
               <div className="healthfacilities-customsize">
                 <div className="bg-img"></div>
                 <div className="customsize-title">
-                  Phòng khám Bệnh viện Đại học Y Dược 3
+                  Trung tâm Khám sức khỏe định kỳ, Bệnh viện Trung ương Quân đội
+                  108
                 </div>
               </div>
               <div className="healthfacilities-customsize">
