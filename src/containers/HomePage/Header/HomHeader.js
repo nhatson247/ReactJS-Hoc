@@ -93,16 +93,16 @@ class HomeHeader extends Component {
         </div>
 
         <Slider {...settings} className="home-header-banner">
-          <div className="healthfacilities-customsize">
+          <div className="banner-customsize">
             <div className="bg-img"></div>
           </div>
-          <div className="healthfacilities-customsize">
+          <div className="banner-customsize">
             <div className="bg-img"></div>
           </div>
-          <div className="healthfacilities-customsize">
+          <div className="banner-customsize">
             <div className="bg-img"></div>
           </div>
-          <div className="healthfacilities-customsize">
+          <div className="banner-customsize">
             <div className="bg-img"></div>
           </div>
         </Slider>

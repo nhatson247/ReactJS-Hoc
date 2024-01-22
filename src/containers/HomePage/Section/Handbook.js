@@ -9,7 +9,7 @@ class Handbook extends Component {
     return (
       <div className="section-common section-handbook">
         <div className="common-container">
-          <div className="common-header">
+          <div className="common-header hand-book-header">
             <span>Cẩm nang</span>
             <button className="header-button">Xem thêm</button>
           </div>
