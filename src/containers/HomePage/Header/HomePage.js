@@ -9,6 +9,8 @@ import OutstandingDoctor from "../Section/OutstandingDoctor";
 import Handbook from "../Section/Handbook";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import About from "../Section/About";
+import HomeFooter from "../HomeFooter";
 
 class HomePage extends Component {
   render() {
@@ -27,6 +29,8 @@ class HomePage extends Component {
         <Healthfacilities settings={settings} />
         <OutstandingDoctor settings={settings} />
         <Handbook settings={settings} />
+        <About />
+        <HomeFooter />
       </React.Fragment>
     );
   }
