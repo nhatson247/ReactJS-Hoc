@@ -38,16 +38,16 @@ class HomeHeader extends Component {
             </div>
             <div className="center-content">
               <div className="child-content active">
-                <FormattedMessage id="header-container.child1" />
+                <FormattedMessage id="header-container.Home" />
               </div>
               <div className="child-content">
-                <FormattedMessage id="header-container.child2" />
+                <FormattedMessage id="header-container.AtHome" />
               </div>
               <div className="child-content">
-                <FormattedMessage id="header-container.child3" />
+                <FormattedMessage id="header-container.AtInstitute" />
               </div>
               <div className="child-content">
-                <FormattedMessage id="header-container.child4" />
+                <FormattedMessage id="header-container.HealthyLiving" />
               </div>
               <div className="search-container">
                 <i className="fas fa-search"></i>
@@ -64,7 +64,7 @@ class HomeHeader extends Component {
             <div className="right-content">
               <div className="support">
                 <i className="fas fa-question-circle"></i>
-                <FormattedMessage id="header-container.child5" />
+                <FormattedMessage id="header-container.Support" />
               </div>
               <div
                 className={

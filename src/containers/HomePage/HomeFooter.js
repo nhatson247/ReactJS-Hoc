@@ -10,6 +10,7 @@ class HomeFooter extends Component {
           <a
             target="_blank"
             href="https://www.facebook.com/profile.php?id=100010759565346&locale=vi_VN"
+            rel="noreferrer"
           >
             Facebook
           </a>
