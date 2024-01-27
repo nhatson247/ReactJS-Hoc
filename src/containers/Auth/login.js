@@ -46,7 +46,7 @@ class Login extends Component {
         });
       }
       if (data && data.errCode === 0) {
-        this.props.userLoginSuccess(data.userInfo);
+        this.props.userLoginSuccess(data.user);
       }
     } catch (error) {
       if (error.response) {
@@ -56,6 +56,12 @@ class Login extends Component {
           });
         }
       }
+    }
+  };
+
+  handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      this.handleLogin();
     }
   };
 
@@ -78,6 +84,7 @@ class Login extends Component {
                 placeholder="Email address"
                 value={email}
                 onChange={this.handleOnChangeInput}
+                onKeyDown={this.handleKeyDown}
               ></input>
             </div>
             <div className="col-12 form-group login-input">
@@ -89,6 +96,7 @@ class Login extends Component {
                   placeholder="Password"
                   value={password}
                   onChange={this.handleOnChangeInput}
+                  onKeyDown={this.handleKeyDown}
                 />
                 <span onClick={this.toggleShowPassword}>
                   <i
@@ -102,7 +110,7 @@ class Login extends Component {
               </div>
             </div>
             <div className="col-12 form-group text-porgot">
-              <a href="#">Forgot password?</a>
+              <a href="home">Forgot password?</a>
             </div>
             <div className="col-12" style={{ color: "red" }}>
               {errMessage}
