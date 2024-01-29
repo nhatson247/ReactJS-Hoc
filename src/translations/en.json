@@ -12,7 +12,7 @@
     },
     "slider-banner":{
         "title": "Comprehensive service",
-        "speciality" : "Speciality",
+        "Speciality" : "Speciality",
         "Remote-Examination" : "Remote Examination",
         "General-Examination" : "General Examination",
         "Medical-Tests" : "Medical Tests",
@@ -33,5 +33,20 @@
             "handbook": "Handbook",
             "manage-handbook" : "Manage handbook"
         }
+    },
+    "manage-user":{
+        "title": "Redux User Management",
+        "add": "Add new Redux user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First Name",
+        "last-name": "Last Name",
+        "phone-number": "Phone Number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "image": "Image",
+        "save": "Save"        
     }
 }

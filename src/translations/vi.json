@@ -13,7 +13,7 @@
     
     "slider-banner":{
         "title": "Dịch vụ toàn diện",
-        "speciality" : "Khám Chuyên khoa",
+        "Speciality" : "Khám Chuyên khoa",
         "Remote-Examination" : "Khám từ xa",
         "General-Examination" : "Khám tổng quát",
         "Medical-Tests" : "Xét nghiệm y học",
@@ -34,5 +34,20 @@
             "handbook": "Cẩm nang",
             "manage-handbook" : "Quản lý chuyên khoa"
         }
+    },
+    "manage-user":{
+        "title":"Quản lý người dùng Redux",
+        "add": "Thêm mới người dùng Redux",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "first-name": "Tên",
+        "last-name": "Họ Đệm",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "position": "Chức vụ",
+        "role": "Vai trò",
+        "image": "Ảnh",
+        "save": "Thêm mới"
     }
 }

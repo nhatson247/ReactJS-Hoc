@@ -24,7 +24,7 @@ class slider extends Component {
                   />
                 </div>
                 <span>
-                  <FormattedMessage id="slider-banner.speciality" />
+                  <FormattedMessage id="slider-banner.Speciality" />
                 </span>
               </div>
               <div className="option">
