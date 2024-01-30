@@ -46,6 +46,10 @@ class UserRedux extends Component {
     }
   };
 
+  handleClick = () => {
+    document.getElementById("previewImg").click();
+  };
+
   render() {
     let genders = this.state.genderArr;
     let language = this.props.language;
@@ -194,10 +198,12 @@ class UserRedux extends Component {
                     onChange={(event) => this.handleOnchangeImage(event)}
                   />
                   <label htmlFor="previewImg" className="label-update">
-                    Tải ảnh <i className="fas fa-upload"></i>
+                    <FormattedMessage id="manage-user.Uploadimages" />
+                    <i className="fas fa-upload"></i>
                   </label>
                   <div
                     className="preview-image"
+                    onClick={this.handleClick}
                     style={{
                       backgroundImage: "url(" + this.state.previewImgURL + ")",
                     }}
