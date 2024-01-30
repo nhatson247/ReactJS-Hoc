@@ -1,0 +1,23 @@
+.preview-img-container {
+
+    .label-update {
+        padding: 5px;
+        border-radius: 3px;
+        background: #efefef;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .preview-image {
+        width: 120px;
+        height: 120px;
+        border: 1px solid #ddd;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        cursor: pointer;
+    }
+}
