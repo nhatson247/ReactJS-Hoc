@@ -6,6 +6,10 @@
         background: #efefef;
         cursor: pointer;
 
+        i {
+            padding-left: 5px;
+        }
+
         &:hover {
             opacity: 0.8;
         }

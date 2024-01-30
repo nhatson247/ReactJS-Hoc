@@ -197,7 +197,11 @@ class UserRedux extends Component {
                     hidden
                     onChange={(event) => this.handleOnchangeImage(event)}
                   />
-                  <label htmlFor="previewImg" className="label-update">
+                  <label
+                    htmlFor="previewImg"
+                    className="label-update"
+                    title="Choose file"
+                  >
                     <FormattedMessage id="manage-user.Uploadimages" />
                     <i className="fas fa-upload"></i>
                   </label>
@@ -207,11 +211,12 @@ class UserRedux extends Component {
                     style={{
                       backgroundImage: "url(" + this.state.previewImgURL + ")",
                     }}
+                    title="Image Avata User"
                   ></div>
                 </div>
               </div>
               <div className="col-12 my-3">
-                <button className="btn btn-primary">
+                <button className="btn btn-primary" title="save">
                   <FormattedMessage id="manage-user.save" />
                 </button>
               </div>
